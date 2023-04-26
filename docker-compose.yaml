@@ -1,0 +1,6 @@
+services:
+  bot:
+    build:
+      context: .
+    volumes:
+      - ./pipe:/alex/pipe:z
